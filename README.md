@@ -4,7 +4,7 @@
 In this project I have explained 2 software simulation of water level indicator.
 
 ## Water Level Indicator using 555 Timer & 7 Segment Display
-![Software](images/Software.png)
+![1](images/1.png)
 
 ### Components
 
@@ -31,7 +31,7 @@ This project presents a **Digital Water Level Indicator** designed using digital
 ---
 
 ## Water Level Indicator using NOT Gate
-![Hardware](images/Hardware.png)
+![2](images/2.png)
 
 ### Components
 
@@ -51,6 +51,8 @@ This project presents a **Digital Water Level Indicator** designed using digital
 
 This circuit uses simple NOT gates, resistors, capacitors, NPN transistors, and LEDs to indicate water levels. When water touches a sensor wire in the tank, it completes the circuit path to ground, creating a LOW signal. The NOT gate inverts this LOW signal to HIGH, which then drives the corresponding LED through the BC547 transistor. The LEDs indicate Empty, Low, Half, and Full water levels sequentially as water rises. The transistor acts as a switch, providing enough current to light up the LEDs with proper brightness. This simple design effectively displays water levels without any microcontroller or complex logic.
 
+### Hardware Implementation
+![Hardware](images/3.png)
 ---
 
 ## 👤 Author
